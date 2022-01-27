@@ -197,6 +197,39 @@ p, #presentation ol > li{
 }
 
 
+/*========================================================
+
+	PROJETCS SECTION
+
+==========================================================*/
+#projets{/*
+	width: 100%;
+	height: 30vh;*/
+	background: url('img/bg-project.png') no-repeat;
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+#projets i{
+	font-size: 3em;
+	padding-bottom: 0.8rem;
+}
+#projets p{
+	font-size: 1.2em;
+	font-weight: normal;
+}
+#projets [class*="col"]{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 0.8em;
+}
+#projets [class*="col"]:not(:last-of-type){
+	border-right: 3px solid white;
+}
+
+
 @media(max-width: 992px){
 	#hero-zone img{
 		/*height: 90vh;*/
@@ -236,5 +269,30 @@ p, #presentation ol > li{
 
 	.competences p{
 		font-size: 0.8em;
+	}
+
+	#projets p{
+		font-size: 1em;
+	}
+}
+@media(max-width: 768px){
+	#projets p{
+		font-size: 1em;
+		font-weight: normal;
+	}
+	#projets [class*="col"]:nth-of-type(2){
+		border-right: none;
+	}
+	#projets [class*="col"]:nth-of-type(1), #projets [class*="col"]:nth-of-type(2){
+		border-bottom: 3px solid white;
+	}
+}
+
+@media(max-width: 576px){
+	#projets [class*="col"]:not(:last-of-type){
+		border-bottom: 3px solid white;
+	}
+	#projets [class*="col"]:nth-of-type(1), #projets [class*="col"]:nth-of-type(3){
+		border-right: none;
 	}
 }
