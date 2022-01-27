@@ -78,7 +78,7 @@ p, #presentation ol > li{
 
 ========================================================*/
 #portfolio{
-	background-color: rgba(220, 220, 220, 0.4);
+	background-color: rgba(220, 220, 220, 0.5);
 }
 .card{
 	border: none !important;
@@ -101,4 +101,90 @@ p, #presentation ol > li{
 }
 .feewi img{
 	width: 48%;
+}
+
+/*===============================================
+
+	COMPETENCES SECTION
+
+=================================================*/
+.bg-secondary{
+	background-color: rgba(220, 220, 220, 0.5) !important;
+}
+.outils-container .technos{
+	width: 35%;
+	padding-top: 0.7em;
+}
+.outils-container .bar-progress{
+	width: 65%;
+}
+.parent{
+	width: 60%;
+	height: 8px;
+	background-color: rgba(220, 220, 220, 0.4);
+	border-radius: 5px;
+}
+[class*="child"]{
+	height: 8px;
+}
+
+/*============================= outils-container ====================*/
+.outils-container .parent{
+	background-color: #049a86ff;
+	margin: auto;
+}
+.outils-container [class*="child"]{
+	background-color: rgba(220, 220, 220, 1);
+}
+.outils-container .child-1{
+	width: 0;
+}
+.outils-container .child-2, .outils-container .child-3, .outils-container .child-4, .outils-container .child-5{
+	width: 30%;
+}
+
+/*========================= language-container ========================*/
+.language-container .technos{
+	margin-left: 5rem;
+	padding-top: 0.5rem;
+	width: 20%;
+}
+.language-container .bar-progress{
+	width: 80%;
+	padding-top: 0;
+}
+.language-container [class*="child"]{
+	background-color: #049a86ff;
+}
+.language-container .child-1{
+	width: 100%;
+}
+.language-container .child-2, .language-container .child-3{
+	width: 75%;
+}
+.language-container .child-4{
+	width: 60%;
+}
+
+@media(max-width: 992px){
+	.outils-container .technos{
+		width: 40%;
+	}
+	.outils-container .bar-progress{
+		width: 60%;
+	}
+	.parent{
+		width: 95%;
+	}
+
+	.language-container .technos{
+		margin-left: 0.5rem;
+		width: 40%;
+	}
+	.language-container .bar-progress{
+		width: 60%;
+	}
+	.language-container .parent{
+		width: 100%;
+	}
 }
