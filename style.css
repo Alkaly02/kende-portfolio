@@ -88,7 +88,7 @@ p, #presentation ol > li{
 	PORTFOLIO SECTION
 
 ========================================================*/
-#portfolio{
+#portfolio, #experiences{
 	background-color: rgba(220, 220, 220, 0.5);
 }
 .card{
@@ -175,6 +175,25 @@ p, #presentation ol > li{
 }
 .language-container .child-4{
 	width: 60%;
+}
+
+/*======================================================
+
+	EXPERIENCES SECTION
+
+========================================================*/
+#experiences .col-12{
+	background-color: white;
+}
+#experiences .col-12 h3{
+	font-size: 1.2em;
+}
+.h4-orange{
+	font-size: 1.1em;
+	color: #f59b18ff;
+}
+#experiences p{
+	font-weight: normal;
 }
 
 
