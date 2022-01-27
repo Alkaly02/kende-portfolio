@@ -214,4 +214,8 @@ p, #presentation ol > li{
 	.language-container .parent{
 		width: 100%;
 	}
+
+	.competences p{
+		font-size: 0.8em;
+	}
 }
