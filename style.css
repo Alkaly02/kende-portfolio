@@ -71,3 +71,34 @@ p, #presentation ol > li{
 	background-color: #f59b18ff;
 	border-radius: 50%;
 }
+
+/*======================================================
+
+	PORTFOLIO SECTION
+
+========================================================*/
+#portfolio{
+	background-color: rgba(220, 220, 220, 0.4);
+}
+.card{
+	border: none !important;
+	box-shadow: 1px 2px 10px #000;
+}
+.volkeno img{
+	width: 55%;
+}
+.fewnu img{
+	width: 60%;
+}
+.fewnu-mobile img{
+	width: 63%;
+}
+.volkeno-2 img{
+	width: 62%;
+}
+.payement img{
+	width: 55%;
+}
+.feewi img{
+	width: 48%;
+}
