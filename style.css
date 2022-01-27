@@ -21,6 +21,29 @@ nav ul > li > a{
 	letter-spacing: 1px;
 }
 
+/*=====================================================
+
+	GENERAL CLASSES
+
+=======================================================*/
+.h2-bold{
+	font-size: 1.4em;
+	font-weight: bold;
+}
+.h3-green{
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #049a86ff;
+}
+p, #presentation ol > li{
+	font-weight: 500;
+}
+
+/*=====================================================
+
+	HERO SECTION
+
+=======================================================*/
 #hero-zone h1, #hero-zone h2{
 	font-weight: normal;
 }
@@ -33,7 +56,18 @@ nav ul > li > a{
 	padding: 0.2rem 0.5rem;
 }
 
-.wave-color{
-	position: absolute;
-	top: 30rem;
+/*======================================================
+
+	PRESENTATION SECTION
+
+========================================================*/
+#presentation ol > li{
+	list-style-type: none;
+	font-size: 1.2em;
+}
+#presentation ol > li span{
+	font-size: 0.8em;
+	padding: 0.3rem 0.7rem;
+	background-color: #f59b18ff;
+	border-radius: 50%;
 }
