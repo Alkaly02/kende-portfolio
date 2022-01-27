@@ -1,0 +1,39 @@
+/*===================
+	colors: 
+	-orange:  #f59b18ff;
+	-green:  #049a86ff;
+=====================*/
+header{
+	color: white;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)) ,url('img/bg.png') no-repeat;
+	background-size: cover;
+}
+nav{
+	box-shadow: 0 10px 20px rgba(4, 154, 134, 0.5) inset;
+}
+nav .container-fluid{
+	box-shadow: 0 1px 5px #000;
+}
+nav ul > li > a{
+	font-size: 0.9em;
+	font-weight: 500;
+	color: white !important;
+	letter-spacing: 1px;
+}
+
+#hero-zone h1, #hero-zone h2{
+	font-weight: normal;
+}
+#hero-zone h1 > span{
+	color: #f59b18ff;
+	font-weight: bold;
+}
+#hero-zone p span{
+	display: inline-block;
+	padding: 0.2rem 0.5rem;
+}
+
+.wave-color{
+	position: absolute;
+	top: 30rem;
+}
