@@ -23,6 +23,11 @@ nav ul > li > a{
 	color: white !important;
 	letter-spacing: 1px;
 }
+i{
+	color: white;
+	font-size: 2em;
+	margin: 0;
+}
 
 /*=====================================================
 
