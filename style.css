@@ -22,6 +22,12 @@ nav ul > li > a{
 	font-weight: 500;
 	color: white !important;
 	letter-spacing: 1px;
+	transition: border-bottom 5s, padding 10s, background-color 5s;
+}
+nav ul > li > a:hover{
+	background-color: rgba(4, 154, 134, 0.5);
+	border-bottom: 3px solid #f59b18ff;
+	padding: 0.40rem !important;
 }
 i{
 	color: white;
@@ -98,9 +104,13 @@ p, #presentation ol > li{
 #portfolio, #experiences{
 	background-color: rgba(220, 220, 220, 0.5);
 }
-.card{
+#portfolio .card{
 	border: none !important;
 	box-shadow: 1px 2px 10px #000;
+	transition: transform 3s cubic-bezier(0.1, 0.7, 1.0, 0.1) 0.001s;
+}
+#portfolio .card:hover{
+	transform: scale(1.1, 1.1);
 }
 .volkeno img{
 	width: 55%;
@@ -191,6 +201,10 @@ p, #presentation ol > li{
 ========================================================*/
 #experiences [class*="col"]{
 	box-shadow: 1px 1px 10px #000;
+	transition: transform 3s cubic-bezier(0.1, 1, 0.3, 0.7) 0.001s;
+}
+#experiences [class*="col"]:hover{
+	transform: scale(0.98, 0.98);
 }
 #experiences .col-12{
 	background-color: white;
@@ -212,9 +226,7 @@ p, #presentation ol > li{
 	PROJETCS SECTION
 
 ==========================================================*/
-#projets{/*
-	width: 100%;
-	height: 30vh;*/
+#projets{
 	background: url('img/bg-project.png') no-repeat;
 	background-size: cover;
 	color: white;
