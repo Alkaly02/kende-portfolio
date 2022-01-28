@@ -215,7 +215,7 @@ p, #presentation ol > li{
 	transition: transform 3s cubic-bezier(0.1, 1, 0.1, 0.7) 0.001s;
 }
 #experiences [class*="col"]:hover{
-	transform: scale(0.98, 0.98);
+	transform: scale(0.92, 0.92);
 }
 #experiences .col-12{
 	background-color: white;
