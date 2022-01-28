@@ -117,10 +117,11 @@ p, #presentation ol > li{
 #portfolio .card{
 	border: none !important;
 	box-shadow: 1px 2px 10px #000;
-	transition: transform 3s cubic-bezier(0.1, 0.7, 1.0, 0.1) 0.001s;
+	transition: transform 3s cubic-bezier(0.1, 0.7, 1.0, 0.1) 0.001s, box-shadow 3s cubic-bezier(0.1, 0.7, 0.5, 0.5) 0.001s;
 }
 #portfolio .card:hover{
 	transform: scale(1.1, 1.1);
+	box-shadow: #f59b18ff 1px 14px 28px, #f59b18ff 1px 10px 10px;
 }
 .volkeno img{
 	width: 55%;
@@ -211,7 +212,7 @@ p, #presentation ol > li{
 ========================================================*/
 #experiences [class*="col"]{
 	box-shadow: 1px 1px 10px #000;
-	transition: transform 3s cubic-bezier(0.1, 1, 0.3, 0.7) 0.001s;
+	transition: transform 3s cubic-bezier(0.1, 1, 0.1, 0.7) 0.001s;
 }
 #experiences [class*="col"]:hover{
 	transform: scale(0.98, 0.98);
@@ -260,6 +261,16 @@ p, #presentation ol > li{
 #projets [class*="col"]:not(:last-of-type){
 	border-right: 3px solid white;
 }
+
+
+
+#contacts{
+	box-shadow: 0px -40px 20px rgba(4, 154, 134, 0.7) inset;
+}
+
+
+
+
 
 
 @media(max-width: 992px){
