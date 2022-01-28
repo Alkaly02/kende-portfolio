@@ -58,6 +58,9 @@ p, #presentation ol > li{
 	HERO SECTION
 
 =======================================================*/
+#hero-zone{
+	/*position: relative;*/
+}
 #hero-zone h1, #hero-zone h2{
 	font-weight: normal;
 }
@@ -78,6 +81,13 @@ p, #presentation ol > li{
 }
 .border-danger{
 	border: 2px solid red;
+}
+
+.wave{
+	/*transform: rotate(180deg);*/
+	width: 100%;
+	box-shadow: 0 10px 20px rgba(4, 154, 134, 0.5) inset;
+	overflow: hidden;
 }
 
 /*======================================================
