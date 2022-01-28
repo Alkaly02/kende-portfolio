@@ -62,6 +62,13 @@ p, #presentation ol > li{
 #hero-zone p span{
 	display: inline-block;
 	padding: 0.2rem 0.5rem;
+	box-shadow: 0 10px 20px rgba(4, 154, 134, 0.5) inset;
+	margin: 0.5rem 0.5rem 0 0;
+}
+#hero-zone p span > i{
+	padding: 0.5em;
+	font-size: 1em;
+	color: #f59b18ff;
 }
 .border-danger{
 	border: 2px solid red;
