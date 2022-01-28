@@ -182,6 +182,9 @@ p, #presentation ol > li{
 	EXPERIENCES SECTION
 
 ========================================================*/
+#experiences [class*="col"]{
+	box-shadow: 1px 1px 10px #000;
+}
 #experiences .col-12{
 	background-color: white;
 }
