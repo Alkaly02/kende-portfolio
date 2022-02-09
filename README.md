@@ -1,2 +1,2 @@
 # kende-portfolio
-# This just a portfolio for somebody
+# This is just a portfolio for somebody
